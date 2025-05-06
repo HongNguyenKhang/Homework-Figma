@@ -13,6 +13,7 @@ body {
 
 /* ----------------------------- Header CSS --------------------------- */
 header {
+    font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,6 +22,7 @@ header {
 }
 
 .logo {
+    font-family: "Source Sans 3", sans-serif;
     font-size: 32.8px;
     font-weight: 600;
     color: #F77E23;
@@ -54,6 +56,7 @@ header i {
 }
 
 .login{
+    font-family: "Source Sans 3", sans-serif;
     background-color: transparent;
     color: white;
     font-size: 14px;
@@ -64,6 +67,7 @@ header i {
 }
 
 .register {
+    font-family: "Source Sans 3", sans-serif;
     background-color: white;
     color: #F77E23;
     font-size: 14px;
@@ -96,6 +100,7 @@ main .content_1 img {
 }
 
 main .content_1 h1 {
+    font-family: "Poppins", sans-serif;
     font-size: 60px;
     width: 650px;
     height: 180px;
@@ -104,6 +109,7 @@ main .content_1 h1 {
 }
 
 .content_1_introduce {
+    font-family: "Source Sans 3", sans-serif;
     font-size: 24px;
     font-weight: 500;
     width: 650px;
@@ -113,6 +119,7 @@ main .content_1 h1 {
 }
 
 .content_1_button {
+    font-family: "Source Sans 3", sans-serif;
     padding: 20px 42px;
     margin-top: 50px;
     background-color: #FF6F28;
@@ -151,12 +158,13 @@ main .content_1 h1 {
 }
 
 .function_text {
+    font-family: "Poppins", sans-serif;
     display: flex;
 	color: black;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 190px;
+    width: 220px;
     height: 60px;
     font-weight: 400;
     font-size: 24px;
@@ -204,6 +212,7 @@ main .content_1 h1 {
 }
 
 .content_2_design h2 {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 40px;
     font-weight: 600;
@@ -221,6 +230,7 @@ main .content_1 h1 {
 }
 
 .content_2_card .see_all a {
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
     font-size: 24px;
     font-weight: 400;
@@ -255,6 +265,7 @@ main .content_1 h1 {
 } 
 
 .content_2_card .list .img_content {
+    font-family: "Poppins", sans-serif;
     position: absolute;
     padding: 0px 24px; 
     top:375px;
