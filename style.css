@@ -36,7 +36,6 @@ nav ul {
 
 nav a {
     font-size: 16px;
-    font-weight: 600;
     line-height: 48px;
     text-decoration: none;
     color: white;
@@ -64,6 +63,7 @@ header i {
     border: none;
     outline: none;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .register {
@@ -92,9 +92,11 @@ header i {
 
 main .content_1 img {
     position: absolute;
+    display: block;
     width: 100%;
-    height: 1150px;
-    top: -110px;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
     z-index: -2;
     filter: brightness(70%);
 }
@@ -131,11 +133,16 @@ main .content_1 h1 {
     cursor: pointer;
 }
 
+.content_1_button:hover {
+    background-color: white;
+    color: #FF6F28;
+}
+
 .content_1_function {
     display: flex;
+    position: relative;
     justify-content: center;
-    align-items: center;
-    gap: 100px;
+    gap: 0px 100px;
     background-color: #FFFFFF;
     position: absolute;
     z-index: 5;
@@ -145,30 +152,39 @@ main .content_1 h1 {
     border-radius: 10px;
 }
 
-.content_1_function .function_text i {
+.content_1_function div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content_1_function .function_text {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFE7D8;
-    color: #F77E23;
+    background-color: #FFE7DB;
     width: 60px;
     height: 60px;
     border-radius: 50px;
    cursor: pointer;
 }
 
-.function_text {
+.content_1_function .function_text img {
+    width: 26px;
+    height: 26px;
+    z-index: 3;
+}
+
+.content_1_function div span {
     font-family: "Poppins", sans-serif;
-    display: flex;
-	color: black;
-    align-items: center;
     justify-content: center;
-    gap: 10px;
-    width: 220px;
-    height: 60px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 100%;
+    align-items: center;
+	color: black;
+    width: 100px;
+    height: 30px;
+    font-weight: 200;
+    font-size: 20px;
 }
 
 .content_1_arrowUp  {
@@ -238,7 +254,6 @@ main .content_1 h1 {
 }
 
 .content_2_card .list {
-    position: relative;
     display: flex;
     justify-content: space-between;
 }
